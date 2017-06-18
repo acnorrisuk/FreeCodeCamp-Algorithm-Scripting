@@ -4,7 +4,7 @@ function destroyer(arr) {
 
     const args = [...arguments].slice(1);
     
-    return arr.filter(function(val) {
+    return arr.filter(val => {
         return !args.includes(val);
     });
 }

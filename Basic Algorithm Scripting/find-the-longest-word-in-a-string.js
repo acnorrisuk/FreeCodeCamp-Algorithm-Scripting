@@ -2,7 +2,7 @@
 
 function findLongestWord(str) {
   
-  const arr = str.split(' ').reduce(function(a, b){
+  const arr = str.split(' ').reduce((a, b) => {
     return a.length > b.length ? a : b;
   });
   

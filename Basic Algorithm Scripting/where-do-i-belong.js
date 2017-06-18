@@ -4,7 +4,7 @@ function getIndexToIns(arr, num) {
 
     arr.push(num);
 
-    arr.sort(function(a, b){
+    arr.sort((a, b) => {
         return a - b;
     });
 

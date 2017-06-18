@@ -2,7 +2,7 @@
 
 function bouncer(arr) {
 
-  return arr.filter(function(item){
+  return arr.filter(item => {
     if( item !== false ) {
         return item;
     }

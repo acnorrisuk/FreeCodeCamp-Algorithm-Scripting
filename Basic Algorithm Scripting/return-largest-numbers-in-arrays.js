@@ -3,7 +3,7 @@
 function largestOfFour(arr) {
 let newArr = [];
 
-arr.forEach(function(sub){
+arr.forEach(sub => {
     newArr.push(Math.max(...sub));
 });
 

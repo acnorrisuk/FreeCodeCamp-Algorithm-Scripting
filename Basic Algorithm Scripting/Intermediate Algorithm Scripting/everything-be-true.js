@@ -2,7 +2,7 @@
 
 function truthCheck(collection, pre) {
   // Is everyone being true?
-  return collection.every(function(obj){
+  return collection.every(obj => {
     return obj[pre];
   });
 }

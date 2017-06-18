@@ -9,7 +9,7 @@ function pairElement(str) {
       T: 'A'
   }
   
-  return str.split('').map(function(base){
+  return str.split('').map(base => {
     return [base, basePairs[base]];
   });
 }

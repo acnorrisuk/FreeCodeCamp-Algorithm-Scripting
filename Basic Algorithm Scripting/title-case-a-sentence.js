@@ -3,7 +3,7 @@
 function titleCase(str) {
   str = str.toLowerCase().split(' ');
 
-  const capitalized = str.map(function(word) {
+  const capitalized = str.map(word => {
       return word.replace(word.charAt(0), word.charAt(0).toUpperCase());
   });
 

@@ -3,7 +3,7 @@
 function diffArray(arr1, arr2) {
   const newArr = [...arr1, ...arr2];
 
-  return newArr.filter(function(num){
+  return newArr.filter(num => {
     return !(arr1.includes(num) && arr2.includes(num));
   });
 }
