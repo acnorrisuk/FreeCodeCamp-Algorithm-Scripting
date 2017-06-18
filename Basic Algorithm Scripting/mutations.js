@@ -11,4 +11,4 @@ function mutation(arr) {
     });
 }
 
-mutation(["Alien", "line"]);
+console.log(mutation(["Alien", "line"]));

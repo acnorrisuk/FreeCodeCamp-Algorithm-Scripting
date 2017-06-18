@@ -6,4 +6,4 @@ function confirmEnding(str, target) {
 
 }
 
-confirmEnding("Bastian", "n")
+console.log(confirmEnding("Bastian", "n"));
